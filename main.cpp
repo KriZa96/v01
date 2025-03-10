@@ -13,10 +13,10 @@ void on_command(HWND hw, int id)
 {
 	switch (id) {
 		case id_button1:
-			::MessageBox(hw, "Button One", "MessageOne", MB_OK | MB_ICONWARNING);
+			::MessageBox(hw, "Button One", "NWP", MB_OK | MB_ICONWARNING);
 			break;
 		case id_button2:
-			::MessageBox(hw, "Button Two", "MessageTwo", MB_OK | MB_ICONWARNING);
+			::MessageBox(hw, "Button Two", "NWP", MB_OK | MB_ICONWARNING);
 			break;
 	}
 }
