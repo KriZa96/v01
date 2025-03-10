@@ -5,6 +5,9 @@ enum { id_button1 = 1, id_button2 };
 void on_create(HWND hw) 
 {
 	// TODO: create two child windows of type button
+	::CreateWindow("button", "Click Me", WS_CHILD | WS_VISIBLE | WS_BORDER | SS_CENTER | WS_BORDER, 200, 200, 150, 75, hw, 0, 0, 0);
+	::CreateWindow("button", "Click Me Again", WS_CHILD | WS_VISIBLE | WS_BORDER | SS_CENTER | WS_BORDER, 450, 200, 150, 75, hw, 0, 0, 0);
+
 }
 
 void on_command(HWND hw, int id) 
